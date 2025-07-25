@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Blockchain artifacts
+blockchain/artifacts/
+blockchain/cache/
+blockchain/node_modules/
+
+# Hardhat files
+blockchain/.env
+blockchain/coverage/
+blockchain/coverage.json
+blockchain/typechain/
+blockchain/typechain-types/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary folders
+tmp/
+temp/
+
+# Package manager lock files (choose one to keep)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# React Router build
+my-dApp-web3/build/
+my-dApp-web3/.react-router/
+
+# Vite
+my-dApp-web3/dist/
